@@ -5,7 +5,7 @@ public class fibonacci {
         int first = 0;
         int second = 1;
         System.out.print("the fbonacci series is:" + first + "," + second);
-        for (int i = 3; i <= num; i++) {
+        for (int i = 2; i <= num; i++) {
             int next = first + second;
             System.out.print("," + next);
             first=second;
