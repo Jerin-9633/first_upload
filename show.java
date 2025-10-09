@@ -15,6 +15,7 @@ class b extends a{
 public class show{
     public static void main(String[] args) {
         b dd = new b();
-        dd.show();
+       
+        dd.show1();
     }
 }
