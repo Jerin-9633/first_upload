@@ -1,12 +1,12 @@
 class dog {
 
-    public void sound() {
+    public void sound1() {
         System.out.println("barking...");
     }
 }
 
 class cat extends dog {
-    public void sound1() {
+    public void sound() {
         System.out.println("meow...");
     }
 }
@@ -15,7 +15,8 @@ public class inheritance {
 
     public static void main(String[] args) {
 
-        dog d = new dog();
+        cat d = new cat();
+        d.sound();
         d.sound1();
 
     }
