@@ -1,6 +1,6 @@
 class dog {
 
-    public void sound1() {
+    public void sound() {
         System.out.println("barking...");
     }
 }
@@ -17,7 +17,7 @@ public class inheritance {
 
         cat d = new cat();
         d.sound();
-        d.sound1();
+       
 
     }
 }

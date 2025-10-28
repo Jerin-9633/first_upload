@@ -6,7 +6,7 @@ class a
 }
 class b extends a{
 
-    public void show1(){
+    public void show(){
         System.out.println("to print the show a");
     }
 
@@ -14,8 +14,8 @@ class b extends a{
 
 public class show{
     public static void main(String[] args) {
-        b dd = new b();
+        a dd = new a();
        
-        dd.show1();
+        dd.show();
     }
 }
